@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4d8cc38c44b4a9c9837639df39639a, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier:
+  UiGrayMat: {fileID: 2100000, guid: f341e78bef34ff04ca38a64cd0d52db3, type: 2}
+  VideoType: 0
+  VideoCoinSFXCool: 0.45
+  UseLevelConfig: 1
+  BackToMapLevel: 16
+  BoardMinSize: {x: 12, y: 13}
+  BeadSize: 1.1
+  BeadHideDis: 7.66
+  BeadScale: {x: 0.95, y: 1, z: 1, w: 0.92}
+  MoveSpeed: {x: 15, y: 11, z: 20, w: 15}
+  CellSize: 1.4
+  BallOffset: {x: 0, y: 0.1, z: 0.1}
+  WallH: 0
+  BreakValue: {x: 2, y: 2, z: 4}
+  EnableEnterPip: 1
+  EnableExit: 1
+  EnableMoveInPip: 1
+  EnableFailCheck: 1
+  BoxPara: {x: 5.2, y: 0.85, z: 0.8}
+  BoxAnimPara: {x: 1, y: 0.1, z: 0.05, w: 0.1}
+  OpeCtrlOffset: {x: 0, y: 1.4, z: 0.7}
+  ToolUiOffset: {x: 0, y: 1.4, z: 7.6}
+  CamPosOffset: {x: 0, y: 0, z: 5.4}
+  CanReplaceMousePointer: 0

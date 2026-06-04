@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -13238107, guid: 5533087e61cd035854f4828e2e6112dd, type: 3}
+  m_Name: IAPSettings_ios
+  m_EditorClassIdentifier:
+  platform: ios
+  noAdsProductId: io.voodo.ballloop.remove_ads
+  isIAPEnabled: 1
+  subscriptionsGroup:
+  - None
+  - SubGroup 1
+  productsFamily:
+  - None
+  - Coins
+  - Skipets
+  - EndlessOffer
+  - Card pack
+  products:
+  - _productId: io.voodo.ballloop.remove_ads
+    _type: 1
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 7.99
+  - _productId: io.voodo.ballloop.lives_refill_bundle_v2
+    _type: 1
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 4.99
+  - _productId: io.voodo.ballloop.coinpack_001
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: Coins
+    _usdPrice: 1.99
+  - _productId: io.voodo.ballloop.coinpack_002
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: Coins
+    _usdPrice: 7.99
+  - _productId: io.voodo.ballloop.coinpack_003
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: Coins
+    _usdPrice: 14.99
+  - _productId: io.voodo.ballloop.coinpack_004
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: Coins
+    _usdPrice: 29.99
+  - _productId: io.voodo.ballloop.coinpack_005
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: Coins
+    _usdPrice: 54.99
+  - _productId: io.voodo.ballloop.coinpack_006
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: Coins
+    _usdPrice: 99.99
+  - _productId: io.voodo.ballloop.no_ads_pack
+    _type: 1
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 9.99
+  - _productId: io.voodo.ballloop.small_bundle
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 5.99
+  - _productId: io.voodo.ballloop.medium_bundle
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 12.99
+  - _productId: io.voodo.ballloop.large_bundle
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 26.99
+  - _productId: io.voodo.ballloop.giant_bundle
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 49.99
+  - _productId: io.voodo.ballloop.ultra_bundle
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 99.99
+  - _productId: io.voodo.ballloop.fail_offer
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 4.99
+  - _productId: io.voodo.ballloop.hard_fail_offer
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 7.99
+  - _productId: io.voodo.ballloop.popuppack_001
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 2.99
+  - _productId: io.voodo.ballloop.popuppack_002
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 5.99
+  - _productId: io.voodo.ballloop.popuppack_003
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 9.99
+  subscriptionSharedKey:
+  ignoreTheGoogleKeyError: 0

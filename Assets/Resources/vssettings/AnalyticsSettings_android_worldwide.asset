@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c46d06cbe404109758a196188cd0ffd2, type: 3}
+  m_Name: AnalyticsSettings_android_worldwide
+  m_EditorClassIdentifier:
+  platform: android
+  store: worldwide
+  useFirebaseAnalytics: 1
+  useRemoteConfig: 1
+  adjustAppToken: oqtxj6ulgphc
+  noAdsBundleId: io.voodo.ballloop.remove_ads
+  useVoodooAnalytics: 1
+  conversionEvents:
+    UseConversionEvents: 1
+    DaysUntilExpiration: 1
+    AdEvents: []
+    UnknownEvents: []
+  isChinaStore: 0
+  appleStoreId: com.tripoly.ballloop.gp
+  voodooFunnels:
+    funnels: []
+  gameAnalyticsGameKey: 32e58b73c2a1ae66b21ecd9f0764944f
+  gameAnalyticsSecretKey: 3252de1215ed784a8faf60be35fc41e7ef0bc3dd
+  excludeGameAnalyticsSDK: 0
+  facebookAppId: 1456052489403725

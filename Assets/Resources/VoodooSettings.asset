@@ -1,0 +1,315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69fcd2a8f3ce82b746e57204f4994f9c, type: 3}
+  m_Name: VoodooSettings
+  m_EditorClassIdentifier:
+  Store: worldwide
+  AccessTokenID: 241bc373-a932-41b1-ac20-0dba92bf72d3
+  LastUpdateDate: 08/04/2026 19:31:15
+  AndroidBuildTargetEnum: 0
+  UseLegacyManifestMergeTools: 0
+  UseAttributesMerging: 0
+  NewManifestMergeDebug: 0
+  AndroidTemplateJsonCustomPath:
+  JvmHeapSize: 0
+  RunXcode16BitcodeRemoval: 1
+  EnableInEditorUnityAds: 1
+  EnableInEditorRVAds: 1
+  EnableInEditorFSAds: 1
+  EnableInEditorAOAds: 1
+  EnableSuperPremiumMode: 0
+  VoodooFunnels:
+    funnels: []
+  AndroidIAPEnabled: 1
+  iOSIAPEnabled: 1
+  AndroidNoAdsProductId: io.voodo.ballloop.remove_ads
+  iOSNoAdsProductId: io.voodo.ballloop.remove_ads
+  SubscriptionGroups:
+  - None
+  - SubGroup 1
+  ProductsFamily:
+  - None
+  - Coins
+  - Skipets
+  - EndlessOffer
+  - Card pack
+  Products:
+  - _productId: io.voodo.ballloop.remove_ads
+    _type: 1
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 7.99
+  - _productId: io.voodo.ballloop.lives_refill_bundle_v2
+    _type: 1
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 4.99
+  - _productId: io.voodo.ballloop.coinpack_001
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: Coins
+    _usdPrice: 1.99
+  - _productId: io.voodo.ballloop.coinpack_002
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: Coins
+    _usdPrice: 7.99
+  - _productId: io.voodo.ballloop.coinpack_003
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: Coins
+    _usdPrice: 14.99
+  - _productId: io.voodo.ballloop.coinpack_004
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: Coins
+    _usdPrice: 29.99
+  - _productId: io.voodo.ballloop.coinpack_005
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: Coins
+    _usdPrice: 54.99
+  - _productId: io.voodo.ballloop.coinpack_006
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: Coins
+    _usdPrice: 99.99
+  - _productId: io.voodo.ballloop.no_ads_pack
+    _type: 1
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 9.99
+  - _productId: io.voodo.ballloop.small_bundle
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 5.99
+  - _productId: io.voodo.ballloop.medium_bundle
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 12.99
+  - _productId: io.voodo.ballloop.large_bundle
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 26.99
+  - _productId: io.voodo.ballloop.giant_bundle
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 49.99
+  - _productId: io.voodo.ballloop.ultra_bundle
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 99.99
+  - _productId: io.voodo.ballloop.fail_offer
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 4.99
+  - _productId: io.voodo.ballloop.hard_fail_offer
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 7.99
+  - _productId: io.voodo.ballloop.popuppack_001
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 2.99
+  - _productId: io.voodo.ballloop.popuppack_002
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 5.99
+  - _productId: io.voodo.ballloop.popuppack_003
+    _type: 0
+    _subscriptionGroup:
+    _productFamily: None
+    _usdPrice: 9.99
+  SubscriptionSharedKey:
+  StudioLogoForSplashScreen: {fileID: 0}
+  DisableVSManagedSplashScreen: 1
+  AppleStoreId: 6751624309
+  iOSAppRaterEnabled: 1
+  AndroidAppRaterEnabled: 1
+  AppRaterDelayAfterLaunchInSeconds: 60
+  AppRaterPostponeCooldownInSeconds: 86400
+  AppRaterMinimumNumberOfGamesPlayed: 5
+  GdprPrimaryColor: {r: 0.254, g: 0.509, b: 0.894, a: 1}
+  iOSCrossPromotionEnabled: 1
+  AndroidCrossPromotionEnabled: 1
+  iOSBannerCloseButtonEnabled: 0
+  AndroidBannerCloseButtonEnabled: 0
+  BannerBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  BannerCloseButtonSprite: {fileID: 0}
+  BannerCloseButtonPosition: 0
+  EnableAutomaticBannerHeightAdjustment: 1
+  cumulativeDelayInSecondsBeforeFirstInterstitialAd: -1
+  delayInSecondsBeforeFirstInterstitialAd: 60
+  delayInSecondsBeforeSessionFirstInterstitialAd: -1
+  delayInSecondsBetweenInterstitialAds: 60
+  maxGamesBetweenInterstitialAds: 3
+  delayInSecondsBetweenRewardedVideoAndInterstitial: 5
+  enableReplaceRewardedIfInterstitialCpmHigher: 0
+  enableReplaceRewardedIfNotLoaded: 0
+  RefreshKitchenSettingsBeforeBuildInBatchMode: 1
+  voodooLogAddTimestamp: 0
+  EnableVoodooAnalyticsLocalTimestamp: 0
+  SendFirebaseInstallEvent: 0
+  IgnoreTheGoogleKeyError: 0
+  IOSBundleID: com.tripoly.ballloop.ios
+  AndroidBundleID: com.tripoly.ballloop.gp
+  UseAndroidRemoteConfig: 1
+  UseIosRemoteConfig: 1
+  EnableIosReplaceRewardedOnCpm: 0
+  EnableAndroidReplaceRewardedOnCpm: 0
+  EnableIosReplaceRewardedIfNotLoaded: 0
+  EnableAndroidReplaceRewardedIfNotLoaded: 0
+  UseIosVoodooAnalytics: 1
+  UseAndroidVoodooAnalytics: 1
+  UseIosFirebaseAnalytics: 1
+  UseAndroidFirebaseAnalytics: 1
+  GameAnalyticsIosGameKey: b1df9d598a7134676a6fddf9f0cebf19
+  GameAnalyticsIosSecretKey: e0f8d8bfe6e5fedc8b9e5a990b73a4d84d69e5a3
+  ExcludeGameAnalyticsIosSDK: 0
+  GameAnalyticsAndroidGameKey: 32e58b73c2a1ae66b21ecd9f0764944f
+  GameAnalyticsAndroidSecretKey: 3252de1215ed784a8faf60be35fc41e7ef0bc3dd
+  ExcludeGameAnalyticsAndroidSDK: 0
+  MaxAdsIosAdsKeys:
+    maxAdsAdUnits:
+      bannerAdUnit:
+      interstitialAdUnit: f5bd59e20193c098
+      rewardedVideoAdUnit: e426d1592f165067
+      mrecAdUnit:
+      nativeAdsAdUnit:
+      appOpenAdUnit:
+    maxAdsSecondaryAdUnits:
+      bannerAdUnit:
+      interstitialAdUnit:
+      rewardedVideoAdUnit:
+      mrecAdUnit:
+      nativeAdsAdUnit:
+      appOpenAdUnit:
+    sessionCountThreshold: 0
+    maxSdkKey: E1M7r57HoT7PoxvgxbXnJLA55TKI1GOGHmO6rVNdzV1mQwQMWz7rJIxOrGgtW48prWwf1II-oKkDF9Zn7gbQzX
+    ironSourceMediationAppKey:
+    enableFakeAds: 1
+    enableFakeInterstitialAds: 1
+    enableFakeRewardedVideoAds: 1
+    enableFakeAppOpenAds: 1
+    enableAppOpenAdSoftLaunch: 0
+  MaxAdsAndroidAdsKeys:
+    maxAdsAdUnits:
+      bannerAdUnit:
+      interstitialAdUnit: b2eda772d6911def
+      rewardedVideoAdUnit: 384194f6a9329416
+      mrecAdUnit:
+      nativeAdsAdUnit:
+      appOpenAdUnit:
+    maxAdsSecondaryAdUnits:
+      bannerAdUnit:
+      interstitialAdUnit:
+      rewardedVideoAdUnit:
+      mrecAdUnit:
+      nativeAdsAdUnit:
+      appOpenAdUnit:
+    sessionCountThreshold: 0
+    maxSdkKey: E1M7r57HoT7PoxvgxbXnJLA55TKI1GOGHmO6rVNdzV1mQwQMWz7rJIxOrGgtW48prWwf1II-oKkDF9Zn7gbQzX
+    ironSourceMediationAppKey:
+    enableFakeAds: 1
+    enableFakeInterstitialAds: 1
+    enableFakeRewardedVideoAds: 1
+    enableFakeAppOpenAds: 1
+    enableAppOpenAdSoftLaunch: 0
+  MaxIosSdkKey: E1M7r57HoT7PoxvgxbXnJLA55TKI1GOGHmO6rVNdzV1mQwQMWz7rJIxOrGgtW48prWwf1II-oKkDF9Zn7gbQzX
+  MaxAndroidSdkKey: E1M7r57HoT7PoxvgxbXnJLA55TKI1GOGHmO6rVNdzV1mQwQMWz7rJIxOrGgtW48prWwf1II-oKkDF9Zn7gbQzX
+  DisableMaxAdsQualityServiceSDK: 0
+  IronSourceMediationIosAppKey:
+  IronSourceMediationAndroidAppKey:
+  AdMobAndroidAppId: ca-app-pub-6354112556091525~5318616370
+  AdMobIosAppId: ca-app-pub-6354112556091525~7444319909
+  amazonIosKey:
+    sdkKey:
+    bannerAdUnit:
+    interstitialAdUnit:
+    rewardedVideoAdUnit:
+  amazonAndroidKey:
+    sdkKey:
+    bannerAdUnit:
+    interstitialAdUnit:
+    rewardedVideoAdUnit:
+  AdjustIosAppToken: nauuni1oi0ow
+  AdjustAndroidAppToken: oqtxj6ulgphc
+  ConversionIosEvents:
+    UseConversionEvents: 1
+    DaysUntilExpiration: 1
+    AdEvents: []
+    UnknownEvents: []
+  ConversionAndroidEvents:
+    UseConversionEvents: 1
+    DaysUntilExpiration: 1
+    AdEvents: []
+    UnknownEvents: []
+  EnableIosAppOpenAdSoftLaunch: 0
+  EnableAndroidAppOpenAdSoftLaunch: 0
+  iOSAppOpenAdConfig:
+    minimumBackgroundTime: 60
+    aoToAoCooldown: 60
+    fsToAoCooldown: 0
+    rvToAoCooldown: 5
+    aoToFsCooldown: 0
+  AndroidAppOpenAdConfig:
+    minimumBackgroundTime: 0
+    aoToAoCooldown: 0
+    fsToAoCooldown: 0
+    rvToAoCooldown: 0
+    aoToFsCooldown: 0
+  iOSAudioAdConfig:
+    adNetwork:
+    gameStartTriggerFrequency: 0
+    coolDownBetweenAudioAds: 0
+    killWhenFsOrRvStarts: 0
+    killWhenGameFinishes: 0
+    closePopupCappingPerSession: 0
+    closePopupFrequencyPerImpression: 0
+    firstAudioAdGracePeriod: 0
+    nextAudioAdGracePeriod: 0
+  AndroidAudioAdConfig:
+    adNetwork:
+    gameStartTriggerFrequency: 0
+    coolDownBetweenAudioAds: 0
+    killWhenFsOrRvStarts: 0
+    killWhenGameFinishes: 0
+    closePopupCappingPerSession: 0
+    closePopupFrequencyPerImpression: 0
+    firstAudioAdGracePeriod: 0
+    nextAudioAdGracePeriod: 0
+  iOSAudioMobConfig:
+    apiKey: 2M4nqcOGZwX6UQkqxWJs
+  AndroidAudioMobConfig:
+    apiKey:
+  sourcepointIosConfiguration:
+    accountId: 1909
+    propertyId: 39011
+    privacyManagerId: 1286912
+    propertyName: voodoo.gaming
+    messageTimeoutInSeconds: 30
+  sourcepointAndroidConfiguration:
+    accountId: 1909
+    propertyId: 39011
+    privacyManagerId: 1286912
+    propertyName: voodoo.gaming
+    messageTimeoutInSeconds: 30
+  googleChromePromotionAdjustToken:
